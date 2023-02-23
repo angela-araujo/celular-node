@@ -1,5 +1,18 @@
 .App {
   display: block;
   align-items: center;
+
+  display: block;
+  background: #01ef923d;
+  padding: 15px;
 }
 
+.linha {
+  width: 184px;
+  padding: 0;
+}
+
+.linha input {
+  margin-bottom: 15px;
+  width: 100%;
+}

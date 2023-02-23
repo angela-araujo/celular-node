@@ -5,6 +5,7 @@ import './App.css';
 
 function App() {
   
+  // Definindo valor das teclas do celular
   const btn_00 = '0_';
   const btn_01 = '1';
   const btn_02 = '2abc';
@@ -18,11 +19,9 @@ function App() {
 
   const [texto, setTexto] = useState('');
 
-  function handleTexto(novoCaracter) {
-    setTexto(texto + novoCaracter);
-  }
-
+  const handleTexto = (novoCaracter) => setTexto(texto + novoCaracter);  
   const limparInput = () => setTexto('');
+  const voltarUmCaracter = () => setTexto(texto.slice(0,texto.length-1));
 
   return (
     <div className="App">
@@ -47,9 +46,9 @@ function App() {
         <Botao labelBotao={btn_09} onClickButton={handleTexto}></Botao>
       </div>
       <div className="linha">
-        <button className='Botao' onClick={limparInput}>Reset</button>
+        <button className='botao' onClick={limparInput}>Reset</button>
         <Botao labelBotao={btn_00} onClickButton={handleTexto}></Botao>
-        
+        <button className="botao" onClick={voltarUmCaracter}>Voltar</button>
       </div>
     </div>
   );

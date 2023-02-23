@@ -1,5 +1,9 @@
-.Botao {
+.botao {
     width: 4.6em;
     padding: 5px;
     height: 1.8em;
+}
+
+.negrito {
+    font-weight: bold;
 }
