@@ -1,5 +1,5 @@
 # Celular Antigo
-![App Screenshot](https://github.com/angela-araujo/celular-node/teclado_celular_antigo.png)
+![App Screenshot](https://github.com/angela-araujo/celular-node/blob/master/teclado_celular_antigo.png)
 
 ## Getting Started with Create React App
 
